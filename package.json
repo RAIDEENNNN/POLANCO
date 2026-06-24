@@ -1,0 +1,11 @@
+{
+  "name": "polanco-motors",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Polanco Motors dealership website and API",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check script.js"
+  },
+  "engines": { "node": ">=18" }
+}

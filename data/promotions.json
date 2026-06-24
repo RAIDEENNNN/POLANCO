@@ -1,0 +1,5 @@
+[
+  {"id":"finance","tag":"FINANCE","title":"Drive now. Pay smarter.","description":"Enjoy a reduced 13.5% annual rate on selected 2024 vehicles with terms up to 48 months.","cta":"Estimate your payment","target":"#finance","tone":"acid"},
+  {"id":"trade","tag":"TRADE-IN BONUS","title":"More value for your current car.","description":"Receive an additional ₦5,000,000 trade-in value when upgrading to a Polanco Select SUV.","cta":"Value my car","target":"#contact","tone":"dark"},
+  {"id":"service","tag":"OWNERSHIP","title":"One year of care, included.","description":"Complimentary scheduled servicing for 12 months on all vehicles purchased this season.","cta":"See eligible cars","target":"#inventory","tone":"image"}
+]

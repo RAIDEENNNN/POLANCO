@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description" content="Polanco Motors — premium vehicles, thoughtfully sourced." />
+  <meta property="og:title" content="Polanco Motors — Drive Different" />
+  <meta property="og:description" content="Exceptional vehicles. Straight answers. A buying experience built around you." />
+  <meta property="og:type" content="website" />
+  <title>Polanco Motors — Drive Different</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Polanco Motors home">
+      <span class="brand-mark">P</span>
+      <span>POLANCO <b>MOTORS</b></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#inventory">Inventory</a>
+      <a href="#promotions">Promotions</a>
+      <a href="#services">Services</a>
+      <a href="#finance">Financing</a>
+      <a href="#about">Our story</a>
+    </nav>
+    <div class="header-actions">
+      <a class="location-link" href="#contact">Lagos, NG <span>↗</span></a>
+      <a class="button button-dark button-small" href="#contact">Book a visit</a>
+      <button class="menu-button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNavigation"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobileNavigation" aria-label="Mobile navigation">
+      <a href="#inventory">Inventory</a><a href="#promotions">Promotions</a><a href="#services">Services</a><a href="#finance">Financing</a><a href="#about">Our story</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <span id="top" aria-hidden="true"></span>
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">CURATED AUTOMOBILES · EST. 2012</p>
+        <h1>Drive the<br><em>difference.</em></h1>
+        <p class="hero-text">Exceptional vehicles. Straight answers. A buying experience built around you.</p>
+        <div class="hero-buttons">
+          <a href="#inventory" class="button button-light">Explore inventory <span>↘</span></a>
+          <button class="text-button" data-open-concierge>Talk to a specialist <span>→</span></button>
+        </div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="White luxury sports car on a dark road">
+        <div class="hero-glow"></div>
+        <div class="hero-stat">
+          <span>NEW ARRIVAL</span>
+          <strong>2024 Porsche 911 Carrera</strong>
+          <small>From ₦185,000,000</small>
+        </div>
+        <div class="scroll-note"><span></span>SCROLL TO DISCOVER</div>
+      </div>
+    </section>
+
+    <section class="proof-strip">
+      <p>Built on trust.<br><span>Driven by standards.</span></p>
+      <div class="proof-item"><strong>12+</strong><span>Years of<br>experience</span></div>
+      <div class="proof-item"><strong>1.4k</strong><span>Vehicles<br>delivered</span></div>
+      <div class="proof-item"><strong>4.9</strong><span>Average client<br>rating</span></div>
+    </section>
+
+    <section class="inventory section-pad" id="inventory">
+      <div class="section-heading">
+        <div><p class="eyebrow">AVAILABLE NOW</p><h2>Find your next drive.</h2></div>
+        <p>Every vehicle is hand-selected, thoroughly inspected, and ready for the road.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter vehicles by body type">
+        <button class="filter active" data-filter="all" aria-pressed="true">All vehicles <sup>12</sup></button>
+        <button class="filter" data-filter="suv" aria-pressed="false">SUV <sup>5</sup></button>
+        <button class="filter" data-filter="sedan" aria-pressed="false">Sedan <sup>3</sup></button>
+        <button class="filter" data-filter="sports" aria-pressed="false">Sports <sup>4</sup></button>
+      </div>
+      <div class="vehicle-grid" id="vehicleGrid"></div>
+      <p class="inventory-status" id="inventoryStatus" role="status" aria-live="polite"></p>
+      <div class="inventory-footer"><span>Can’t find what you’re looking for?</span><button class="text-button dark-link" data-open-concierge>Let us source it <span>→</span></button></div>
+    </section>
+
+    <section class="promotions section-pad" id="promotions">
+      <div class="promo-heading"><div><p class="eyebrow">LIMITED-TIME OFFERS</p><h2>More drive.<br><em>Less compromise.</em></h2></div><p>Special opportunities across selected vehicles and ownership services. Terms apply.</p></div>
+      <div class="promo-grid" id="promoGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <p class="eyebrow light">BEYOND THE SALE</p>
+      <div class="services-intro"><h2>Everything you need.<br><em>Nothing you don’t.</em></h2><p>From first conversation to final handover—and long after—we make ownership feel effortless.</p></div>
+      <div class="service-list">
+        <article><span>01</span><div><h3>Vehicle sourcing</h3><p>Tell us what you want. Our global network finds it, verifies it, and brings it home.</p></div><b>↗</b></article>
+        <article><span>02</span><div><h3>Flexible financing</h3><p>Clear, competitive options structured around your plans—not the other way around.</p></div><b>↗</b></article>
+        <article><span>03</span><div><h3>Trade-in</h3><p>A fair, transparent valuation and a seamless path into your next vehicle.</p></div><b>↗</b></article>
+        <article><span>04</span><div><h3>Aftercare</h3><p>Maintenance, detailing, and support from people who know your car as well as you do.</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="finance section-pad" id="finance">
+      <div class="finance-copy">
+        <p class="eyebrow">MAKE IT YOURS</p>
+        <h2>A simpler route<br>to the driver’s seat.</h2>
+        <p>Choose your figures and get a clear monthly estimate in seconds. No fine print, no awkward calls.</p>
+        <ul><li>Rates from 15% annually</li><li>Terms up to 48 months</li><li>Early repayment available</li></ul>
+      </div>
+      <div class="calculator">
+        <div class="calc-heading"><span>FINANCE ESTIMATOR</span><small>Indicative estimate</small></div>
+        <label>Vehicle price <output id="priceOutput">₦85,000,000</output><input type="range" id="price" min="25000000" max="250000000" step="5000000" value="85000000"></label>
+        <label>Down payment <output id="depositOutput">₦25,500,000 · 30%</output><input type="range" id="deposit" min="10" max="70" step="5" value="30"></label>
+        <div class="term-group"><span>Repayment term</span><div><button data-months="12">12 mo</button><button data-months="24">24 mo</button><button class="active" data-months="36">36 mo</button><button data-months="48">48 mo</button></div></div>
+        <div class="estimate"><span>Estimated monthly</span><strong id="monthlyOutput">₦2,063,000<small>/mo</small></strong><p>Based on a 15% annual rate. Final terms subject to approval.</p></div>
+        <button class="button button-dark calc-button" data-open-concierge>Start an application <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="story" id="about">
+      <div class="story-image"><span>THE POLANCO STANDARD</span></div>
+      <div class="story-copy"><p class="eyebrow">WHY POLANCO</p><h2>We’re not here<br>to sell you a car.</h2><p>We’re here to help you choose the right one. That means honest guidance, careful sourcing, and the kind of attention we’d expect ourselves.</p><blockquote>“The best deal is the one you still feel good about years later.”</blockquote><a href="#contact" class="text-button dark-link">Meet the team <span>→</span></a></div>
+    </section>
+
+    <section class="cta section-pad" id="contact">
+      <p class="eyebrow light">YOUR NEXT DRIVE STARTS HERE</p>
+      <h2>Let’s find the one.</h2>
+      <p>Visit our showroom or tell us what you’re looking for.</p>
+      <button class="button button-light" data-open-concierge>Start a conversation <span>↗</span></button>
+      <div class="cta-contact"><address>12A Akin Adesola Street<br>Victoria Island, Lagos</address><span><a href="tel:+2348020007626">+234 802 000 7626</a><br><a href="mailto:hello@polancomotors.ng">hello@polancomotors.ng</a></span><span>Mon–Sat<br>9:00–18:00</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">P</span><span>POLANCO <b>MOTORS</b></span></a>
+    <p>Premium automobiles.<br>Personal service.</p>
+    <div class="footer-links"><a href="#inventory">Inventory</a><a href="#promotions">Promotions</a><a href="#services">Services</a><a href="#finance">Financing</a><a href="#about">Our story</a></div>
+    <div class="socials" id="socialLinks"><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok ↗</a><a href="https://x.com" target="_blank" rel="noopener noreferrer">X / Twitter ↗</a><a href="https://wa.me/2348020007626" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div>
+    <div class="legal"><span>© 2026 Polanco Motors Ltd.</span><span>Privacy · Terms</span></div>
+  </footer>
+
+  <dialog id="vehicleDialog" class="vehicle-dialog" aria-labelledby="vehicleDialogTitle"><button class="close-dialog" aria-label="Close vehicle details">×</button><div id="vehicleDialogContent"></div></dialog>
+  <dialog id="conciergeDialog" class="concierge-dialog" aria-labelledby="conciergeTitle"><button class="close-dialog" aria-label="Close enquiry form">×</button><p class="eyebrow">PERSONAL CONCIERGE</p><h2 id="conciergeTitle">What can we help you find?</h2><form id="conciergeForm"><label>Your name<input required name="name" autocomplete="name" placeholder="Full name"></label><label>Contact number<input required name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+234"></label><label>I'm interested in<select name="interest"><option>A vehicle in inventory</option><option>Sourcing a specific car</option><option>Financing</option><option>Trade-in</option><option>Current promotion</option></select></label><label>Tell us more<textarea name="message" rows="3" placeholder="Model, budget, preferred colour..."></textarea></label><button class="button button-dark" type="submit">Request a callback <span>→</span></button></form><p class="form-success" role="status" hidden></p></dialog>
+  <a class="whatsapp-float" id="whatsappSupport" href="https://wa.me/2348020007626?text=Hello%20Polanco%20Motors%2C%20I%27d%20like%20help%20finding%20a%20vehicle." target="_blank" rel="noopener noreferrer" aria-label="Chat with Polanco Motors on WhatsApp"><span>WA</span><b>Chat with us</b></a>
+  <noscript><div class="noscript">JavaScript is required for inventory filtering and the finance estimator. You can still reach us at <a href="tel:+2348020007626">+234 802 000 7626</a>.</div></noscript>
+  <script src="script.js"></script>
+</body>
+</html>
